@@ -1,0 +1,18 @@
+{
+  "name": "ssapi",
+  "version": "1.0.0",
+  "description": "SSAPI on docker",
+  "main": "ssEvents.js",
+  "scripts": {
+    "start": "node ssEvents.js"
+  },
+  "author": "Adabara Abdullahi",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "facebook-nodejs-business-sdk": "^6.0.1",
+    "express": "^4.16.1"
+  }
+}
